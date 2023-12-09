@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CRM AVEZA - Crear usuario</title>
+    <link rel="icon" href="img/Triangulos aveza.ico" />
+    <link rel="stylesheet" href="style css/style.css" />
+
+    <meta charset="utf-8" />
+  </head>
+
+  <body class="fondo2">
+    <div class="logo-aveza">
+      <img src="img/LOGO AVEZA.png" alt="LOGO AVEZA" title="AVEZA SAS" />
+    </div>
+    <h1 class="titulo">Crear usuario</h1>
+
+    <main>
+      <nav class="menu-principal">
+        <ul>
+          <li><a href="Menu.html">Inicio</a></li>
+          <li><a href="registro-de-cliente.html">Registro de cliente</a></li>
+          <li><a href="#">Cotización</a></li>
+          <li><a href="#">Financiamiento</a></li>
+          <li><a href="generar-contrato.html">Contrato</a></li>
+          <li><a href="agendar-cita.html">Agendar citas</a></li>
+          <li>
+            <a href="GenerarDocumentosLegales.html"
+              >Generar documentos legales</a
+            >
+          </li>
+          <li>
+            <a href="configurar-recordatorio.html">Configurar recordatorios</a>
+          </li>
+          <li>
+            <a href="#">Conocimiento de Litigios</a>
+            <ol class="menu-vertical">
+              <li><a href="#">Por Cliente</a></li>
+              <li><a href="#">Por Tipo de Caso</a></li>
+            </ol>
+          </li>
+          <li><a href="#">Generar Factura</a></li>
+          <li><a href="#">Cerrar Sesión</a></li>
+        </ul>
+      </nav>
+
+      <form method="post" class="formulario">
+        <div class="nombreapellido">
+          <label for="nombre" class="labelcrearusuario">Nombre(s):</label>
+          <input
+            type="text"
+            name="nombre"
+            id="name"
+            class="cajascrearusuario"
+          />
+          <label for="apellidos" class="labelcrearusuario">Apellido(s):</label>
+          <input
+            type="text"
+            name="apellidos"
+            id="lastname"
+            class="cajascrearusuario"
+          />
+        </div>
+
+        <br />
+        <br />
+        <div class="cedulaemail">
+          <label for="numerocedula" class="labelcrearusuario"
+            >Numero de cédula:</label
+          >
+          <input
+            type="number"
+            name="numerocedula"
+            id="cedula"
+            class="cajascrearusuario"
+          />
+          <label for="correo" class="labelcrearusuario">Email:</label>
+          <input
+            type="email"
+            name="correo"
+            id="email"
+            class="cajascrearusuario"
+          />
+        </div>
+
+        <br />
+        <br />
+        <div class="direccioncelular">
+          <label for="direccion" class="labelcrearusuario">Dirección:</label>
+          <input
+            type="text"
+            name="direccion"
+            id="address"
+            class="cajascrearusuario"
+          />
+          <label for="telefono" class="labelcrearusuario">Celular:</label>
+          <input
+            type="number"
+            name="telefono"
+            id="celular"
+            class="cajascrearusuario"
+          />
+        </div>
+
+        <br />
+        <br />
+        <div class="ciudadcontrasena">
+          <label for="ciudad" class="labelcrearusuario">Ciudad:</label>
+          <input
+            type="text"
+            name="ciudad"
+            id="city"
+            class="cajascrearusuario"
+          />
+          <label for="contrasena" class="labelcrearusuario">Contraseña:</label>
+          <input
+            type="password"
+            name="contrasena"
+            id="password"
+            class="cajascrearusuario"
+          />
+        </div>
+        <br />
+        <br />
+        <div class="repetircontrasena">
+          <label for="repetircontrasena" class="labelrepetircontrasena"
+            >Repetir contraseña:</label
+          >
+          <input
+            type="password"
+            name="repetircontrasena"
+            id="passwordver"
+            class="cajascrearusuario"
+          />
+        </div>
+        <br />
+        <br />
+        <div class="botonescrearusuario">
+          <input type="submit" name="guardar" value="Guardar" class="botones" />
+          <input
+            type="button"
+            name="cancelar"
+            value="Cancelar"
+            class="botones"
+          />
+        </div>
+        <br />
+      </form>
+    </main>
+  </body>
+</html>
