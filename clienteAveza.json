@@ -1,16 +1,51 @@
-{
-  "cedula": 71366468,
-  "nombres": "Julian Rodrigo",
-  "apellidos": "Arango Mesa",
-  "direccion": "Calle 38 A 80 53",
-  "codigo_ciudad": "031",
-  "telefono": 3204746006,
-  "correo": "jram828@yahoo.com",
-  "tipo_usuario": "administrador",
-  "contrasena": "Jram830828",
-  "tipo_de_caso": "01",
-  "valor_pretensiones": "200.000",
-  "tiene_contrato": "Si",
-  "honorarios": "40.000",
-  "forma_de_pago": "efectivo"
-}
+[
+  {
+    "cedula": 71963214,
+    "nombres": "Julian",
+    "apellidos": "Muñoz",
+    "direccion": "Calle 15 c 10 36",
+    "codigo_ciudad": "031",
+    "telefono": 3127896325,
+    "correo": "jaog8@hotmail.com",
+    "tipo_usuario": "administrador",
+    "contrasena": "POES9587",
+    "tipo_de_caso": "01",
+    "valor_pretensiones": "200.000",
+    "tiene_contrato": "Si",
+    "honorarios": "40.000",
+    "forma_de_pago": "efectivo"
+  },
+
+  {
+    "cedula": 79685321,
+    "nombres": "Mauricio",
+    "apellidos": "Perez",
+    "direccion": "Calle 8B 30 3",
+    "codigo_ciudad": "031",
+    "telefono": 3059874561,
+    "correo": "jmmse@gmail.com",
+    "tipo_usuario": "administrador",
+    "contrasena": "Jram830828",
+    "tipo_de_caso": "01",
+    "valor_pretensiones": "200.000",
+    "tiene_contrato": "Si",
+    "honorarios": "40.000",
+    "forma_de_pago": "efectivo"
+  },
+  {
+    "cedula": 15318359,
+    "nombres": "Pepito",
+    "apellidos": "Jaramillo",
+    "direccion": "Calle 3 A 80 13",
+    "codigo_ciudad": "031",
+    "telefono": 3201234567,
+    "correo": "rtasmuy@sumail.com",
+    "tipo_usuario": "administrador",
+    "contrasena": "Jpot34567",
+    "tipo_de_caso": "01",
+    "valor_pretensiones": "200.000",
+    "tiene_contrato": "Si",
+    "honorarios": "40.000",
+    "forma_de_pago": "efectivo"
+  }
+]

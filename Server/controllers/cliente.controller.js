@@ -28,13 +28,13 @@ clienteCtrl.createClientes = async (req, res) => {
 
 //Conseguir un Unico cliente
 clienteCtrl.getUnicoCliente = async (req, res) => {
-  const clienteUnico = await Cliente.findById(req.params.id);
+  const clienteUnico = await Cliente.findById(req.params._id);
   res.json(clienteUnico);
 };
 
 //Actualizar empleado
 clienteCtrl.editarCliente = async (req, res) => {
-  const { id } = req.params;
+  const { _id } = req.params;
   const clienteEdit = {
     cedula: req.body.cedula,
     nombres: req.body.nombres,
@@ -51,13 +51,13 @@ clienteCtrl.editarCliente = async (req, res) => {
     honorarios:req.body.honorarios,
     forma_de_pago:req.body.forma_de_pago
   };
-  await Cliente.findByIdAndUpdate(id, { $set: clienteEdit }, { new: true });
+  await Cliente.findByIdAndUpdate(_id, { $set: clienteEdit }, { new: true });
   res.json({ status: "Cliente Actualizado" });
 };
 
 // Eliminar cliente
 clienteCtrl.eliminarCliente = async (req, res) => {
-  await Cliente.findByIdAndDelete(req.params.id);
+  await Cliente.findByIdAndDelete(req.params._id);
   res.json({ status: "Cliente Eliminado" });
 };
 
