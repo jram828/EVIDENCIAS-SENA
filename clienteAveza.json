@@ -1,0 +1,16 @@
+{
+  "cedula": 71366468,
+  "nombres": "Julian Rodrigo",
+  "apellidos": "Arango Mesa",
+  "direccion": "Calle 38 A 80 53",
+  "codigo_ciudad": "031",
+  "telefono": 3204746006,
+  "correo": "jram828@yahoo.com",
+  "tipo_usuario": "administrador",
+  "contrasena": "Jram830828",
+  "tipo_de_caso": "01",
+  "valor_pretensiones": "200.000",
+  "tiene_contrato": "Si",
+  "honorarios": "40.000",
+  "forma_de_pago": "efectivo"
+}
